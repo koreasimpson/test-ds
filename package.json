@@ -1,0 +1,17 @@
+{
+  "name": "root",
+  "private": true,
+  "scripts": {
+    "tsc-core": "lerna exec --scope closet-core -- tsc --watch",
+    "tsc-theme": "lerna exec --scope closet-theme -- tsc --watch",
+    "storybook-start": "yarn workspace closet-core storybook",
+    "playground-dev": "yarn workspace closet-playground dev"
+  },
+  "devDependencies": {
+    "lerna": "^3.22.1",
+    "typescript": "^4.0.3"
+  },
+  "workspaces": [
+    "packages/*"
+  ]
+}

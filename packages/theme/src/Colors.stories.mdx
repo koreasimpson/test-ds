@@ -1,0 +1,22 @@
+import { Meta, ColorPalette, ColorItem } from '@storybook/addon-docs/blocks';
+
+import theme from './index';
+
+<Meta title="CLOUD/Foundation/Colors" />
+
+# Colors
+
+<ColorPalette>
+  <ColorItem key ={1} title="theme.colors.BLUE" subtitle="blue" colors={[theme.colors.BLUE]} />
+  <ColorItem key ={2} title="theme.colors.RED" subtitle="red" colors={[theme.colors.RED]} />
+  <ColorItem key ={3} title="theme.colors.GREEN" subtitle="green" colors={[theme.colors.GREEN]} />
+  <ColorItem
+    key ={4}
+    title="Monochrome"
+    colors={[
+      theme.colors.BLUE,
+      theme.colors.RED,
+      theme.colors.GREEN,
+    ]}
+  />
+</ColorPalette>
