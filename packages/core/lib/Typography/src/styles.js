@@ -15,94 +15,94 @@ Object.defineProperty(exports, "__esModule", { value: true });
 exports.ellipsisStyle = exports.FontWeight = exports.typoDesignStyle = exports.typoHeaderDesign = exports.typoTitleDesign = exports.typoSubTitleDesign = exports.typoBodyDesign = void 0;
 exports.typoBodyDesign = (_a = {},
     _a[1] = {
-        fontSize: '24px',
-        lineHeight: '36px',
+        fontSize: "24px",
+        lineHeight: "36px",
     },
     _a[2] = {
-        fontSize: '18px',
-        lineHeight: '24px',
+        fontSize: "18px",
+        lineHeight: "24px",
     },
     _a[3] = {
-        fontSize: '16px',
-        lineHeight: '24px',
+        fontSize: "16px",
+        lineHeight: "24px",
     },
     _a[4] = {
-        fontSize: '14px',
-        lineHeight: '20px',
+        fontSize: "14px",
+        lineHeight: "20px",
     },
     _a[5] = {
-        fontSize: '12px',
-        lineHeight: '18px',
+        fontSize: "12px",
+        lineHeight: "18px",
     },
     _a[6] = {
-        fontSize: '10px',
-        lineHeight: '16px',
+        fontSize: "10px",
+        lineHeight: "16px",
     },
     _a);
 exports.typoSubTitleDesign = (_b = {},
     _b[1] = {
-        fontSize: '32px',
-        lineHeight: '42px',
+        fontSize: "32px",
+        lineHeight: "42px",
     },
     _b[2] = {
-        fontSize: '24px',
-        lineHeight: '34px',
+        fontSize: "24px",
+        lineHeight: "34px",
     },
     _b[3] = {
-        fontSize: '18px',
-        lineHeight: '24px',
+        fontSize: "18px",
+        lineHeight: "24px",
     },
     _b[4] = {
-        fontSize: '16px',
-        lineHeight: '22px',
+        fontSize: "16px",
+        lineHeight: "22px",
     },
     _b[5] = {
-        fontSize: '14px',
-        lineHeight: '20px',
+        fontSize: "14px",
+        lineHeight: "20px",
     },
     _b[6] = {
-        fontSize: '12px',
-        lineHeight: '16px',
+        fontSize: "12px",
+        lineHeight: "16px",
     },
     _b[7] = {
-        fontSize: '10px',
-        lineHeight: '14px',
+        fontSize: "10px",
+        lineHeight: "14px",
     },
     _b);
 exports.typoTitleDesign = (_c = {},
-    _c[1] = __assign(__assign({}, exports.typoSubTitleDesign[1]), { letterSpacing: '4px' }),
-    _c[2] = __assign(__assign({}, exports.typoSubTitleDesign[2]), { letterSpacing: '3px' }),
-    _c[3] = __assign(__assign({}, exports.typoSubTitleDesign[3]), { letterSpacing: '2.25px' }),
-    _c[4] = __assign(__assign({}, exports.typoSubTitleDesign[4]), { letterSpacing: '2px' }),
-    _c[5] = __assign(__assign({}, exports.typoSubTitleDesign[5]), { letterSpacing: '1.75px' }),
-    _c[6] = __assign(__assign({}, exports.typoSubTitleDesign[6]), { letterSpacing: '1.5px' }),
-    _c[7] = __assign(__assign({}, exports.typoSubTitleDesign[7]), { letterSpacing: '1.25px' }),
+    _c[1] = __assign(__assign({}, exports.typoSubTitleDesign[1]), { letterSpacing: "4px" }),
+    _c[2] = __assign(__assign({}, exports.typoSubTitleDesign[2]), { letterSpacing: "3px" }),
+    _c[3] = __assign(__assign({}, exports.typoSubTitleDesign[3]), { letterSpacing: "2.25px" }),
+    _c[4] = __assign(__assign({}, exports.typoSubTitleDesign[4]), { letterSpacing: "2px" }),
+    _c[5] = __assign(__assign({}, exports.typoSubTitleDesign[5]), { letterSpacing: "1.75px" }),
+    _c[6] = __assign(__assign({}, exports.typoSubTitleDesign[6]), { letterSpacing: "1.5px" }),
+    _c[7] = __assign(__assign({}, exports.typoSubTitleDesign[7]), { letterSpacing: "1.25px" }),
     _c);
 exports.typoHeaderDesign = (_d = {},
     _d[1] = {
-        fontSize: '62px',
-        lineHeight: '72px',
-        letterSpacing: '4px',
+        fontSize: "62px",
+        lineHeight: "72px",
+        letterSpacing: "4px",
     },
     _d[2] = {
-        fontSize: '48px',
-        lineHeight: '52px',
-        letterSpacing: '4px',
+        fontSize: "48px",
+        lineHeight: "52px",
+        letterSpacing: "4px",
     },
     _d[3] = {
-        fontSize: '32px',
-        lineHeight: '42px',
-        letterSpacing: '2px',
+        fontSize: "32px",
+        lineHeight: "42px",
+        letterSpacing: "2px",
     },
     _d[4] = {
-        fontSize: '24px',
-        lineHeight: '32px',
-        letterSpacing: '2px',
+        fontSize: "24px",
+        lineHeight: "32px",
+        letterSpacing: "2px",
     },
     _d[5] = {
-        fontSize: '20px',
-        lineHeight: '30px',
-        letterSpacing: '1px',
+        fontSize: "20px",
+        lineHeight: "30px",
+        letterSpacing: "1px",
     },
     _d);
 exports.typoDesignStyle = {
@@ -118,7 +118,7 @@ var FontWeight;
     FontWeight[FontWeight["Regular"] = 300] = "Regular";
 })(FontWeight = exports.FontWeight || (exports.FontWeight = {}));
 exports.ellipsisStyle = {
-    overflow: 'hidden',
-    textOverflow: 'ellipsis',
-    whiteSpace: 'nowrap',
+    overflow: "hidden",
+    textOverflow: "ellipsis",
+    whiteSpace: "nowrap",
 };

@@ -1,4 +1,4 @@
-import { TypoDesignType, TypoBodyLevel, TypoTitleLevel, TypoHeaderLevel } from './types';
+import { TypoDesignType, TypoBodyLevel, TypoTitleLevel, TypoHeaderLevel } from "./types";
 export declare const typoBodyDesign: {
     [key in TypoBodyLevel]: TypoDesignType;
 };
@@ -12,7 +12,7 @@ export declare const typoHeaderDesign: {
     [key in TypoHeaderLevel]: TypoDesignType;
 };
 export declare const typoDesignStyle: {
-    BODY: {
+    readonly BODY: {
         1: TypoDesignType;
         2: TypoDesignType;
         3: TypoDesignType;
@@ -20,16 +20,7 @@ export declare const typoDesignStyle: {
         5: TypoDesignType;
         6: TypoDesignType;
     };
-    SUBTITLE: {
-        1: TypoDesignType;
-        2: TypoDesignType;
-        3: TypoDesignType;
-        4: TypoDesignType;
-        5: TypoDesignType;
-        6: TypoDesignType;
-        7: TypoDesignType;
-    };
-    TITLE: {
+    readonly SUBTITLE: {
         1: TypoDesignType;
         2: TypoDesignType;
         3: TypoDesignType;
@@ -38,7 +29,16 @@ export declare const typoDesignStyle: {
         6: TypoDesignType;
         7: TypoDesignType;
     };
-    HEADER: {
+    readonly TITLE: {
+        1: TypoDesignType;
+        2: TypoDesignType;
+        3: TypoDesignType;
+        4: TypoDesignType;
+        5: TypoDesignType;
+        6: TypoDesignType;
+        7: TypoDesignType;
+    };
+    readonly HEADER: {
         1: TypoDesignType;
         2: TypoDesignType;
         3: TypoDesignType;
@@ -52,7 +52,7 @@ export declare enum FontWeight {
     Regular = 300
 }
 export declare const ellipsisStyle: {
-    overflow: string;
-    textOverflow: string;
-    whiteSpace: string;
+    readonly overflow: "hidden";
+    readonly textOverflow: "ellipsis";
+    readonly whiteSpace: "nowrap";
 };
