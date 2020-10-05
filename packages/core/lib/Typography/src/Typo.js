@@ -33,6 +33,7 @@ var styles_1 = require("./styles");
 var headingTag = new Map();
 headingTag.set(1, "h1").set(2, "h2").set(3, "h3").set(4, "h4").set(5, "h5");
 exports.Typo = function (props) {
+    console.log("Typo를 수정해보았습니다");
     var _a = props.variant, variant = _a === void 0 ? "BODY" : _a, _b = props.level, level = _b === void 0 ? types_1.CategoryDefaultLevel["BODY"] : _b, restProps = __rest(props, ["variant", "level"]);
     var customProps = __assign({ variant: variant,
         level: level, typoDesign: styles_1.typoDesignStyle[variant] }, restProps);
