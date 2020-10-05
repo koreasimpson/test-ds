@@ -3,6 +3,7 @@
   "version": "1.0.1",
   "description": "> TODO: description",
   "author": "nine-zero-chan <90chanho@gmail.com>",
+  "private": true,
   "homepage": "",
   "license": "ISC",
   "main": "lib/index.js",
