@@ -22,6 +22,7 @@ export default function Home() {
         <VerifyIcon />
         <AddIcon />
         <CameraIcon />
+        <p>여기를 이렇게 수정해볼게요</p>
         <Typo>안녕하세욥 abcdedg</Typo>
         <Typo textDecoration={"underline"}>안녕하세욥 abcdedg</Typo>
         <Typo textDecoration={"line-through"}>안녕하세욥 abcdedg</Typo>
