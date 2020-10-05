@@ -18,7 +18,6 @@ const headingTag = new Map();
 headingTag.set(1, "h1").set(2, "h2").set(3, "h3").set(4, "h4").set(5, "h5");
 
 export const Typo = (props: TypoProps) => {
-  console.log("Typo를 수정해보았습니다");
   const {
     variant = "BODY",
     level = CategoryDefaultLevel["BODY"],

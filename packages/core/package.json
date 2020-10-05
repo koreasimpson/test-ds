@@ -15,6 +15,7 @@
     "lib"
   ],
   "scripts": {
+    "build": "tsc --watch",
     "test": "echo \"Error: run tests from root\" && exit 1",
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook"
@@ -29,10 +30,10 @@
     "@storybook/react": "^6.0.22",
     "@storybook/theming": "^6.0.21",
     "babel-loader": "^8.1.0",
-    "eslint-config-prettier": "^6.11.0",
-    "eslint-plugin-prettier": "^3.1.4",
+    "react-is": "^16.13.1",
     "prettier": "^2.0.5",
-    "react-is": "^16.13.1"
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-plugin-prettier": "^3.1.4"
   },
   "dependencies": {
     "@emotion/styled": "^10.0.27",

@@ -3,6 +3,7 @@
   "private": true,
   "scripts": {
     "tsc-core": "lerna exec --scope closet-core -- tsc --watch",
+    "core-build": "yarn workspace closet-core build",
     "tsc-theme": "lerna exec --scope closet-theme -- tsc --watch",
     "storybook-start": "yarn workspace closet-core storybook",
     "playground-dev": "yarn workspace closet-playground dev"
